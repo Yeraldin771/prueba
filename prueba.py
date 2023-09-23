@@ -18,7 +18,7 @@ print('\n')
 
 for i in range(howMany):
     psswd = ''
-    for n in range(lenght):
+    for m in range(lenght):
         psswd += random.choice(pool_chr)
     print(psswd)
 print('\n')
